@@ -27,7 +27,7 @@ console.log(consume("Mary", "Poppins", greeting)); // Hello Mary Poppins, nice t
 
 // Explain in your own words why nestedfunction can access the variable internal.
 
-// Explanation: Because of closure, any object can reach outside itself and use information in it's parent object. A parent object, however, cannot reach down into the child objects and use their info.
+// Explanation: Because of closure, any function can reach outside itself and use information in it's parent object. A parent object, however, cannot reach down into the child objects and use their info.
 
 
 const external = "I'm outside the function";
